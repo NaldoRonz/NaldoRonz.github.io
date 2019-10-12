@@ -1,0 +1,140 @@
+
+
+.name{
+  font-size: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+}
+
+.title{
+  font-size: 14px;
+  font color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+}
+
+.biography{
+  font-size: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font color: black;
+}
+
+.Body{
+  font-size: 10px;
+  font color: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.others{
+  font-size: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font color: black;
+}
+
+.container{
+  width: 1000px;
+  height: 3000;
+}
+
+.containerTopBox{
+  width:940px;
+  height: 75px;
+  background-color:blue;
+  border:1px solid white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.containerBaseBox{
+  display:flex;
+}
+
+.nameBox{
+  width: 300px;
+  height:75px;
+  background-color: blue;
+  border:2px solid white;
+  padding-left: 180px;
+}
+
+.leftBox{
+    flex-direction: column;
+    margin-top:20px;
+    margin-left: 75px;
+    justify-content: center;
+    background-color: silver;
+    width: 250px;
+}
+
+.rightBox{
+    flex: 1;
+    background-color: white;
+    width: 450px;
+    height:700px;
+    margin-top:20px;
+    margin-left: 75px;
+}
+
+.profilePic > img{
+  border-radius: 130px;
+  margin-top:20px;
+  margin-left: 45px;
+}
+
+.iconPic > img{
+  border-radius: 10px;
+}
+
+.contact{
+  margin-left:75px;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font color: black;
+}
+
+.contactBody{
+  font-size: 10px;
+  font color: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.date{
+  font-size: 10px;
+  font color: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: left;
+}
+
+.detailTopic{
+  font-size: 10px;
+  font color: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: right;
+  font-style: italic;
+}
+
+.detail{
+  font-size: 10px;
+  font color: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: right;
+}
+
+.gridLayout{
+  display: grid;
+}
+.gridLayout > .containerTopBox{
+ grid-auto-columns: 100px;
+}
+
+
+.gridLayout > .leftBox{
+grid-auto-columns: 100px;
+}
+
+.gridLayout > .rightBox{
+grid-auto-columns: 100px;
+}
